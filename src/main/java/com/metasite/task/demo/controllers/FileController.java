@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.concurrent.ExecutionException;
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://word-counter-client.herokuapp.com/")
 public class FileController {
 
     private final Logger logger = LoggerFactory.getLogger(FileController.class);
